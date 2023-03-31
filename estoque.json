@@ -1,0 +1,115 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Gallo",
+      "email": "galo@galo.com",
+      "senha": "123456"
+    },
+    {
+      "id": 2,
+      "nome": "Indiano",
+      "email": "indiano@val.com",
+      "senha": "123456"
+    },
+    {
+      "id": 3,
+      "nome": "Carneiro",
+      "email": "carneiro@carneiro.com",
+      "senha": "123456"
+    },
+    {
+      "nome": "rose",
+      "email": "rose@rose.com",
+      "senha": "asdhuhjflhsdfgajshfo",
+      "id": 4
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "id_cliente": 1,
+      "data_pedido": "2023-03-31",
+      "total": 124
+    },
+    {
+      "id": 2,
+      "id_cliente": 2,
+      "data_pedido": "2023-03-31",
+      "total": 224
+    },
+    {
+      "id": 3,
+      "id_cliente": 3,
+      "data_pedido": "2023-03-31",
+      "total": 324
+    }
+  ],
+  "itens_pedidos": [
+    {
+      "id_pedido": 1,
+      "id_produto": 1,
+      "preco_unitario": 10.65,
+      "quantidade": 2,
+      "preco_total": 21.3
+    },
+    {
+      "id_pedido": 2,
+      "id_produto": 3,
+      "preco_unitario": 20.65,
+      "quantidade": 2,
+      "preco_total": 41.3
+    },
+    {
+      "id_pedido": 3,
+      "id_produto": 2,
+      "preco_unitario": 30.65,
+      "quantidade": 2,
+      "preco_total": 61.3
+    },
+    {
+      "id_pedido": 4,
+      "id_produto": 3,
+      "preco_unitario": 20.65,
+      "quantidade": 2,
+      "preco_total": 41.3
+    },
+    {
+      "id_pedido": 5,
+      "id_produto": 2,
+      "preco_unitario": 30.65,
+      "quantidade": 2,
+      "preco_total": 61.3
+    },
+    {
+      "id_pedido": 6,
+      "id_produto": 1,
+      "preco_unitario": 10.65,
+      "quantidade": 2,
+      "preco_total": 21.3
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "fralda",
+      "descricao": "frauda para quem não segura mais nada",
+      "preco": 10.65,
+      "nome_imagem": "https://a.co/d/jjjXHts"
+    },
+    {
+      "id": 2,
+      "titulo": "chupeta",
+      "descricao": "chupeta para quem gosta de mamar",
+      "preco": 30.65,
+      "nome_imagem": "https://http2.mlstatic.com/D_NQ_NP_730003-MLB53885158753_022023-O.webp"
+    },
+    {
+      "id": 3,
+      "titulo": "lenco",
+      "descricao": "para limpar o nenem",
+      "preco": 20.65,
+      "nome_imagem": "https://a-static.mlcdn.com.br/800x560/lenco-umedecido-personalidade-baby-c-100/drogariajk/953p/afcf693b63e421f842838770a38562a0.jpg"
+    }
+  ]
+}
